@@ -5,9 +5,8 @@ import { getExcercises } from "@/lib/getExcercises";
 
 const Excercises = async () => {
   const excercisesData = await getExcercises();
-
   return (
-    <section className="mx-auto w-full max-w-[1280px] px-4 pb-20 pt-16 sm:px-6">
+    <section className="mx-auto w-full max-w-1280px px-4 pb-20 pt-16 sm:px-6">
       <h2 className="font-['Bebas_Neue'] text-4xl uppercase leading-none text-white">
         The Library
       </h2>
@@ -38,7 +37,8 @@ const Excercises = async () => {
                   {excercise.muscleGroups.map((group) => (
                     <span
                       key={group}
-                      className="rounded-full bg-[#c6f600] px-3 py-1 text-[11px] font-bold uppercase leading-none text-[#0b0d12]"
+                      className="rounded-full bg-[#c6f600] px-3 py-1 text-[11px] font-bold 
+                      uppercase leading-none text-[#0b0d12]"
                     >
                       {group}
                     </span>
@@ -52,7 +52,10 @@ const Excercises = async () => {
                   {excercise.equipment}
                 </p>
 
-                <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-[#1f232c] pt-4 text-xs text-[#8b909c]">
+                <div
+                  className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-[#1f232c]
+                 pt-4 text-xs text-[#8b909c]"
+                >
                   <span className="inline-flex items-center gap-1.5">
                     <svg
                       className="h-3.5 w-3.5"
