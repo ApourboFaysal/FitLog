@@ -12,7 +12,10 @@ const NavCounts = () => {
         className="flex items-center gap-2 text-[13px] text-[#c9ccd3]"
       >
         <span>Plan</span>
-        <span className="flex h-[22px] min-w-[22px] items-center justify-center rounded-full bg-[#c6f600] px-[7px] text-xs font-bold text-[#0b0d12]">
+        <span
+          className="flex h-22px min-w-22px items-center justify-center rounded-full bg-[#c6f600] 
+        px-7px text-xs font-bold text-[#0b0d12]"
+        >
           {plan.length}
         </span>
       </Link>
