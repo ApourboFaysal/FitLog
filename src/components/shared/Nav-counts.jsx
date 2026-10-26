@@ -22,7 +22,10 @@ const NavCounts = () => {
         className="flex items-center gap-2 text-[13px] text-[#c9ccd3]"
       >
         <span>Saved</span>
-        <span className="flex h-[22px] min-w-[22px] items-center justify-center rounded-full border border-[#3a3f4a] px-[7px] text-xs font-bold text-[#c9ccd3]">
+        <span
+          className="flex h-22px min-w-22px items-center justify-center rounded-full border
+         border-[#3a3f4a] px-7px text-xs font-bold text-[#c9ccd3]"
+        >
           {saved.length}
         </span>
       </Link>
