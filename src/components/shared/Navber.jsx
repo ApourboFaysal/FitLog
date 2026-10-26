@@ -37,7 +37,6 @@ const Navber = () => {
             </Suspense>
           </ul>
         </div>
-
         <Link href="/" className="flex items-center gap-2">
           <Image src={logo} alt="logo" className="h-6 w-auto" />
           <span className="text-xl font-bold">FITLOG</span>
